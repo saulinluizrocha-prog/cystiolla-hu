@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="hu">
+<html dir="ltr" lang="hu-HU">
    <head>
       <meta charset="utf-8" />
       <title>
