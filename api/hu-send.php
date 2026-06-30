@@ -1,4 +1,8 @@
 <?php
+ob_start();
+error_reporting(0);
+ini_set('display_errors', 0);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 1. Get and normalize phone and name
     $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
@@ -103,7 +107,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $response = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
 
     // 5. Generate random order ID for the thank you page
     $order_id = rand(1000000, 9999999) . '-ID';
