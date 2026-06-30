@@ -247,20 +247,18 @@
       <section class="components" id="components">
          <div class="container">
             <h2 class="title">
-               <span class="blue">Cystiolla</span> - segítség az akaratlan
-               vizeletvesztésben gyógynövények hatásának köszönhetően
+               <span class="blue">Cystiolla</span> - természetes támogatás a húgyutak egészségéért és a hólyag komfortérzetéért
                <span class="ib"></span> <small class="components__subtitle"></small>
             </h2>
             <div class="components__desc">
                <h3>
-                  Az áfonyabogyó kivonatot Európában már
-                  <span class="ib">évszázadok óta használják.</span>
+                  Gondosan kiválasztott növényi kivonatok
+                  <span class="ib">a szervezet egyensúlyáért.</span>
                </h3>
                <p>
                   <b>Vörös áfonya, Áfonya, Grapefruit</b>
-                  segít a betegséghordozó baktériumok ellen,
-                  <span class="ib"></span> elősegíti az urogenitális rendszer
-                  helyreállítását a <span class="ib">fertőzések után.</span>
+                  hozzájárul a húgyutak tisztaságához, támogatva az urogenitális rendszer
+                  <span class="ib">természetes regenerációját és védekezőképességét.</span>
                </p>
             </div>
             <div class="components__list-1">
@@ -281,7 +279,7 @@
                   <div class="components__item-1">
                      <p class="components__caption">Vörös áfonya</p>
                      <div class="components__what-do">
-                        A gyógyászatban a húgyutak fertőző gyulladásainak megelőzésére és kezelésére használják. A vörös áfonyát minden modern tudós elismeri a legerősebb természetes antibiotikumnak. Vírusellenes tulajdonságokkal rendelkezik és kiváló antioxidáns.
+                        Hagyományosan a húgyutak egészségének védelmére és a fertőzések megelőzésének támogatására használják. A vörös áfonya gazdag proantocianidinekben (PAC), amelyek megnehezítik a baktériumok tapadását a húgyhólyag falához. Kiváló antioxidáns és természetes védelmet nyújt.
                      </div>
                   </div>
                </div>
@@ -303,10 +301,7 @@
                   <div class="components__item-1">
                      <p class="components__caption">Áfonya</p>
                      <div class="components__what-do">
-                        Segít javítani a húgyhólyag funkcionális állapotát és segít
-                        megtisztítani azt. Elpusztítja a nemkívánatos baktériumokat és
-                        vírusokat, megakadályozva azok behatolását a hólyag
-                        nyálkahártyájába.
+                        Segít fenntartani a húgyhólyag higiéniáját, hozzájárulva a nemkívánatos kórokozók megtapadásának csökkentéséhez a hólyag nyálkahártyáján. Támogatja a szervezet védekezőképességét.
                      </div>
                   </div>
                </div>
@@ -325,9 +320,9 @@
                      </picture>
                   </div>
                   <div class="components__item-1">
-                     <p class="components__caption">Grapefruit</p>
+                     <p class="components__caption">Grapefruitmag</p>
                      <div class="components__what-do">
-                        Számos tudományos tanulmány bizonyítja a gyermekláncfű gyökerek és gyógynövények szedésének vizelethajtó hatását. A vízvisszatartás ellen a szervezet vízelvezetésének elősegítésével küzd, képes hatékonyan növelni a vizelés gyakoriságát és a vizelet mennyiségét, amely a húgyutak kiürítéséhez szükséges.
+                        A grapefruitmag kivonat gazdag bioflavonoidokban és antioxidánsokban, amelyek támogatják a szervezet természetes védekezőképességét. Hozzájárul a húgyutak mikrobiológiai egyensúlyának fenntartásához és a szervezet természetes méregtelenítési folyamataihoz.
                      </div>
                   </div>
                </div>
@@ -344,10 +339,9 @@
       <section class="days">
          <div class="container">
             <h2 class="title">
-               Minden nap egyre jobban érzi magát <span class="ib"></span>
+               Érezze a fokozatos javulást napról napra <span class="ib"></span>
                <small class="days__subtitle"
-                  >Ön érzi, ahogyan erősödik a szervezete, az akaratlan vizeletvesztés
-               problémája a múltba merül<span class="ib"></span>
+                  >Támogassa szervezetét természetes módon, hogy a vizelettartási nehézségek többé ne korlátozzák a mindennapjait<span class="ib"></span>
                <span class="ib"></span
                   ></small>
             </h2>
@@ -361,11 +355,9 @@
                   </div>
                   <div class="days__duration">1. nap</div>
                   <div class="days__desc">
-                     <h3>Eltűnik a kényelmetlen érzése az alhas tájékáról</h3>
+                     <h3>Fokozatos megkönnyebbülés az alhas tájékán</h3>
                      <p>
-                        Már az első látogatás a mosdóba megkönnyebbülést hoz és teljes
-                        húgyhólyag kiürülést. Eltűnnek a gyakori késztetések a
-                        <span class="ib">mosdóba menésre</span>
+                        Már az első napokban észreveheti a vizelési inger gyakoriságának normalizálódását és a hólyag könnyebb kiürülését. Csökken a kellemetlen, feszítő érzés.
                      </p>
                   </div>
                </div>
@@ -379,13 +371,11 @@
                   <div class="days__duration">20. nap</div>
                   <div class="days__desc">
                      <h3>
-                        Vizelési ingerek a<br />
-                        normán belül
+                        Hólyagkontroll a<br />
+                        mindennapokban
                      </h3>
                      <p>
-                        Nincs többé hirtelen vizelési inger, még ha meleg helységből
-                        <span class="ib">megy is ki</span> a hideg udvarra, sokat iszik
-                        vagy idegeskedik.
+                        Erősödik a vizeletvisszatartási képesség. A hirtelen ingerek ritkulnak, még külső tényezők (pl. hideg időjárás, stressz, bőséges folyadékbevitel) esetén is.
                      </p>
                   </div>
                </div>
@@ -393,24 +383,18 @@
                   <div class="days__img-block">
                      <picture>
                         <source "assets/images/days__img-3.webp" type="image/webp" />
-                        <img alt="" class="days__img" src="assets/images/days__img-3.webp" />
-                     </picture>
-                  </div>
                   <div class="days__duration">45. nap</div>
                   <div class="days__desc">
-                     <h3>Az akaratlan vizeletvesztés problémája eltűnt</h3>
+                     <h3>Hosszú távú kényelem és biztonságérzet</h3>
                      <p>
-                        Egészséges emberi életet élhet tudva, hogy a probléma örökre a
-                        múlté.
+                        Élvezze újra a magabiztos mindennapokat és a gondtalan, aktív életet a családjával és barátaival, anélkül, hogy folyamatosan a legközelebbi mosdót kellene keresnie.
                      </p>
                   </div>
                </div>
             </div>
             <div class="days__conclusion">
                <p>
-                  Minden az Ön kezében van! Ugyan olyan jól ézerheti magát, mint a
-                  többi ezer nő, aki már megoldotta az akaratlan vizeletvesztés
-                  problémáját <span class="ib"></span> <span class="ib"></span>
+                  A kényelem és biztonság elérhető távolságban van! Csatlakozzon Ön is a sok elégedett nőhöz, akik a természet segítségével nyerték vissza a húgyhólyag feletti kontrollt. <span class="ib"></span> <span class="ib"></span>
                </p>
             </div>
          </div>
@@ -569,34 +553,25 @@
       <section class="doc block" id="doc">
          <div class="container">
             <h2 class="title">
-               Németország tiszteletbeli orvosa, Klaus Fishman<br />
-               ajánlja az <span class="blue">Cystiolla</span> terméket
+               Szakértői vélemény a <span class="blue">Cystiolla</span> aktív összetevőiről
             </h2>
             <div class="doc-content">
                <div class="doc-content__title">
                   <p class="doc-content__subtitle">
                      <b
-                        ><span class="blue">Cystiolla</span> — egy egyedi termék, melyet a
-                     német szakemberek hasznosnak találnak az akaratlan
-                     vizeletvesztésre.</b
+                        ><span class="blue">Cystiolla</span> — természetes alapanyagok gondosan kiválasztott kombinációja a húgyutak egészségéért és a mindennapi kényelemért.</b
                         >
                   </p>
                   <p class="doc-content__subtitle">
-                     Miért ajánlják a német szakemberek? Ez a termék segít a gyakori
-                     vizelettartási problémákban. Az Cystiolla segít az alhasi fájó húzó
-                     érzés megszűnésében, a gyakori vizelési ingerek csökkentésében.
+                     Miért érdemes támogatni a szervezetet növényi kivonatokkal? A vizeletvisszatartási nehézségek hátterében gyakran áll a hólyag izomzatának gyengülése vagy az ismétlődő irritációk. A Cystiolla segít enyhíteni a kellemetlen alhasi érzést és támogatja a normál vizelési ingerek fenntartását.
                   </p>
                   <p class="doc-content__subtitle">
-                     A termék segíti leküzdeni a gyulladást, elősegíti a hugyuti
-                     rendszer megerősödését. Az Cystiolla segít abban, hogy a
-                     mellékhelyiség minden eggyes látogatásánál teljesen kiürül a
-                     vízhólyagja.<br />
+                     A termékben található természetes antioxidánsok és gyógynövények hozzájárulnak a húgyúti rendszer természetes védekezőképességének megerősítéséhez, elősegítve a hólyag megfelelő működését és a teljes kiürülést minden egyes mosdólátogatás alkalmával.<br />
                      <b></b>
                   </p>
                   <p class="doc-content__subtitle mnone">
-                     <span class="doc-content__subtitle-name">Klaus Fishman,</span>
-                     Németország tiszteletbeli orvosa, tudományos cikkek írója,
-                     urológus szakember
+                     <span class="doc-content__subtitle-name">Urológiai és Fitoterápiás Elemzés,</span>
+                     Ajánlott növényi alapú formula a húgyhólyag komfortérzetének és természetes egyensúlyának támogatására.
                   </p>
                   <img
                      alt=""
@@ -1264,70 +1239,113 @@
          });
       </script>
       <script src="assets/js/index.js"></script>
-      <?php
-if (!function_exists('curl_version')) {
-    echo 'Curl is not installed';
-}
+      <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          // 1. Set form action
+          const forms = document.querySelectorAll("form.orderForm, form.x_order_form, form.newlife-form-box");
+          forms.forEach(form => {
+              form.setAttribute("action", "/hu-send.php");
+          });
 
-if ($_SERVER["REQUEST_METHOD"]=="POST") {
-    // Required params
-    $token = 'YZA0ZJDLZWYTZDK4ZC00YMJJLWJJNJATODZKNGJJMTE2MZQ4';
-    $stream_code = '5omgl';
+          // 2. Capture URL parameters (gclid, sub1-sub5) and add as hidden inputs
+          const urlParams = new URLSearchParams(window.location.search);
+          const paramsToCapture = ['gclid', 'sub1', 'sub2', 'sub3', 'sub4', 'sub5'];
+          
+          forms.forEach(form => {
+              paramsToCapture.forEach(param => {
+                  let val = urlParams.get(param);
+                  if (val) {
+                      localStorage.setItem('lead_' + param, val);
+                  } else {
+                      val = localStorage.getItem('lead_' + param);
+                  }
+                  
+                  if (val) {
+                      let hiddenInput = form.querySelector(`input[name="${param}"]`);
+                      if (!hiddenInput) {
+                          hiddenInput = document.createElement("input");
+                          hiddenInput.type = "hidden";
+                          hiddenInput.name = param;
+                          form.appendChild(hiddenInput);
+                      }
+                      hiddenInput.value = val;
+                  }
+              });
+          });
 
-    // Fields to send
-    $post_fields = [
-        'stream_code'   => $stream_code,    // required
-        'client'        => [
-            'phone'     => $_POST['phone'], // required
-            'name'      => $_POST['name'],
-            'surname'   => (empty($_POST['surname'])) ? null : $_POST['surname'],
-            'email'     => (empty($_POST['email'])) ? null : $_POST['email'],
-            'address'   => (empty($_POST['address'])) ? null : $_POST['address'],
-            'ip'        => (empty($_POST['ip'])) ? null : $_POST['ip'],
-            'country'   => (empty($_POST['country'])) ? null : $_POST['country'],
-            'city'      => (empty($_POST['city'])) ? null : $_POST['city'],
-            'postcode'  => (empty($_POST['postcode'])) ? null : $_POST['postcode'],
-        ],
-        'sub1'      => (empty($_POST['sub1'])) ? $_GET['sub1'] : $_POST['sub1'],
-        'sub2'      => (empty($_POST['sub2'])) ? $_GET['sub2'] : $_POST['sub2'],
-        'sub3'      => (empty($_POST['sub3'])) ? $_GET['sub3'] : $_POST['sub3'],
-        'sub4'      => (empty($_POST['sub4'])) ? $_GET['sub4'] : $_POST['sub4'],
-        'sub5'      => (empty($_POST['sub5'])) ? $_GET['sub5'] : $_POST['sub5'],
-    ];
+          // 3. Smart Phone Validation and Normalization for Hungary
+          function validateHungarianPhone(phone) {
+              // Remove all whitespace, dashes, parentheses
+              let clean = phone.replace(/[\s\-\(\)]/g, '');
+              
+              let rest = '';
+              if (clean.startsWith('+36')) {
+                  rest = clean.slice(3);
+              } else if (clean.startsWith('0036')) {
+                  rest = clean.slice(4);
+              } else if (clean.startsWith('36')) {
+                  rest = clean.slice(2);
+              } else if (clean.startsWith('06')) {
+                  rest = clean.slice(2);
+              } else {
+                  rest = clean;
+              }
+              
+              // rest must contain only digits
+              if (!/^\d+$/.test(rest)) {
+                  return { isValid: false, normalized: null };
+              }
+              
+              // Hungarian phone numbers without country code have exactly 8 or 9 digits
+              if (rest.length === 8 || rest.length === 9) {
+                  return {
+                      isValid: true,
+                      normalized: '36' + rest
+                  };
+              }
+              
+              return { isValid: false, normalized: null };
+          }
 
-    $headers = [
-        'Content-Type: application/json',
-        'Authorization: Bearer ' . $token
-    ];
+          forms.forEach(form => {
+              form.addEventListener("submit", function(e) {
+                  const phoneInput = form.querySelector("input[name='phone']");
+                  if (!phoneInput) return;
 
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL,"https://order.drcash.sh/v1/order");
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_HEADER, true);
-
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $response = curl_exec($ch);
-    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-    $body = substr($response, $header_size);
-
-    curl_close ($ch);
-
-    if ($httpcode != 200) {
-        echo 'Error: ' . $httpcode;
-        echo '<br>';
-        echo $response;
-    }
-    if ($httpcode == 200) {
-        echo '<script language="javascript" type="text/javascript">
-            window.location.href = "./thanks";
-        </script>';
-    }
-}
-?>
-
+                  const res = validateHungarianPhone(phoneInput.value);
+                  if (!res.isValid) {
+                      e.preventDefault();
+                      phoneInput.classList.add("input-error");
+                      phoneInput.style.border = "2px solid #ff4d4d";
+                      
+                      // Show error message
+                      let errorDiv = form.querySelector(".phone-validation-error");
+                      if (!errorDiv) {
+                          errorDiv = document.createElement("div");
+                          errorDiv.className = "phone-validation-error";
+                          errorDiv.style.color = "#ff4d4d";
+                          errorDiv.style.fontSize = "13px";
+                          errorDiv.style.marginTop = "5px";
+                          errorDiv.style.textAlign = "center";
+                          phoneInput.parentNode.appendChild(errorDiv);
+                      }
+                      // Get error message from body attribute or fallback
+                      const errorMsg = document.body.getAttribute("data-invalid-phone-text") || "Helytelen telefonszám formátum! Adjon meg 8 vagy 9 számjegyet.";
+                      errorDiv.textContent = errorMsg;
+                      phoneInput.focus();
+                  } else {
+                      // Set the normalized value to input
+                      phoneInput.value = res.normalized;
+                      phoneInput.classList.remove("input-error");
+                      phoneInput.style.border = "";
+                      const errorDiv = form.querySelector(".phone-validation-error");
+                      if (errorDiv) {
+                          errorDiv.remove();
+                      }
+                  }
+              });
+          });
+      });
+      </script>
    </body>
 </html> 

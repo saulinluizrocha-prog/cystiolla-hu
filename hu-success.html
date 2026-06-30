@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Köszönjük a megrendelést! | Cystiolla</title>
+  <!-- Google Fonts Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: rgba(17, 24, 39, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #10b981;
+      --primary-glow: rgba(16, 185, 129, 0.2);
+      --warning: #f59e0b;
+      --warning-glow: rgba(245, 158, 11, 0.15);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Abstract background glows */
+    body::before, body::after {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      opacity: 0.15;
+    }
+    body::before {
+      background: var(--primary);
+      top: 10%;
+      left: 10%;
+    }
+    body::after {
+      background: var(--warning);
+      bottom: 10%;
+      right: 10%;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Green checkmark animation */
+    .success-icon-wrap {
+      width: 80px;
+      height: 80px;
+      background: rgba(16, 185, 129, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      border: 2px solid rgba(16, 185, 129, 0.3);
+      box-shadow: 0 0 20px var(--primary-glow);
+      animation: pulseGlow 2s infinite;
+    }
+
+    .success-icon-wrap svg {
+      width: 40px;
+      height: 40px;
+      color: var(--primary);
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    /* Product Section */
+    .product-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+
+    .product-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .order-number {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      font-family: monospace;
+    }
+
+    .product-image {
+      height: 70px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    /* Urgency & Call Instruction Alerts */
+    .alert-box {
+      border-radius: 16px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      text-align: left;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* Stock Warning Alert (Gatilho 1) */
+    .alert-stock {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      color: #fca5a5;
+    }
+
+    .alert-stock .dot {
+      width: 8px;
+      height: 8px;
+      background-color: #ef4444;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 6px;
+      animation: blink 1.2s infinite;
+      flex-shrink: 0;
+    }
+
+    .alert-stock b {
+      color: #ef4444;
+    }
+
+    /* Call Alert (Gatilho 2 & 3) */
+    .alert-call {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.18);
+      color: #fde047;
+    }
+
+    .alert-call svg {
+      width: 20px;
+      height: 20px;
+      color: var(--warning);
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .alert-call b {
+      color: var(--warning);
+    }
+
+    /* Persistant Countdown Timer */
+    .timer-container {
+      margin: 28px 0 12px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 16px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .timer-title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .timer-digits {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--primary);
+      text-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+      font-family: monospace;
+    }
+
+    /* Security trust badges */
+    .trust-container {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      opacity: 0.6;
+    }
+
+    .trust-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .trust-badge svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Animations */
+    @keyframes pulseGlow {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+      70% { box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    @keyframes blink {
+      0% { opacity: 0.2; }
+      50% { opacity: 1; }
+      100% { opacity: 0.2; }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 12px;
+      }
+      .card {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      .product-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      
+      <!-- Animated Check -->
+      <div class="success-icon-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        </svg>
+      </div>
+
+      <h1>Sikeres megrendelés!</h1>
+      <p class="subtitle">Köszönjük a bizalmát. A kérést sikeresen rögzítettük.</p>
+
+      <!-- Product detail box -->
+      <div class="product-box">
+        <div class="product-info">
+          <span class="product-title">Cystiolla (Növényi formula)</span>
+          <span class="order-number" id="orderIdText">Rendelésszám: Keresés...</span>
+        </div>
+        <!-- Using product image path, fallback if not found -->
+        <img class="product-image" src="thanks/assets/images/products/product1.png" alt="Cystiolla" onerror="this.src='hu/assets/images/prod.png'">
+      </div>
+
+      <!-- Urgency stock warning alert (Gatilho 1) -->
+      <div class="alert-box alert-stock">
+        <span class="dot"></span>
+        <div>
+          <b>FIGYELEM:</b> A raktárkészletünk jelenleg kritikus szinten van a nagy kereslet miatt! A lefoglalt akciós csomagját korlátozott ideig tudjuk tartani.
+        </div>
+      </div>
+
+      <!-- Call Alerts (Gatilho 2 & 3) -->
+      <div class="alert-box alert-call">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+        </svg>
+        <div>
+          <b>FONTOS - TARTSA KÖZELBEN A TELEFONJÁT:</b> Húgyúti szakértőnk a következő <b>30 percen belül</b> hívni fogja Önt a megadott telefonszámon, hogy megerősítse a címet és ingyenesen összeállítsa az Ön egyedi kezelési tervét.
+        </div>
+      </div>
+
+      <!-- Persistent Countdown Timer -->
+      <div class="timer-container">
+        <p class="timer-title">A lefoglalt kedvezménye lejár:</p>
+        <div class="timer-digits" id="countdownTimer">10:00</div>
+      </div>
+
+      <!-- Trust signals -->
+      <div class="trust-container">
+        <div class="trust-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+          </svg>
+          <span>SSL Titkosított kapcsolat</span>
+        </div>
+        <div class="trust-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+          </svg>
+          <span>Adatvédelmi Megfelelőség</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // 1. Handle Order ID
+      const urlParams = new URLSearchParams(window.location.search);
+      let orderId = urlParams.get('order_id');
+      
+      if (orderId) {
+        localStorage.setItem('current_order_id', orderId);
+      } else {
+        orderId = localStorage.getItem('current_order_id');
+        if (!orderId) {
+          // Generate a fallback random order id
+          orderId = Math.floor(1000000 + Math.random() * 9000000) + "-ID";
+          localStorage.setItem('current_order_id', orderId);
+        }
+      }
+      document.getElementById('orderIdText').textContent = "Rendelésszám: " + orderId;
+
+      // 2. Persistent 10 Minutes Countdown Timer
+      const timerDuration = 10 * 60; // 10 minutes in seconds
+      let timerEndTime = localStorage.getItem('timer_end_time');
+      const now = Math.floor(Date.now() / 1000);
+
+      // If timer doesn't exist or is expired, start a new one
+      if (!timerEndTime || parseInt(timerEndTime) <= now) {
+        timerEndTime = now + timerDuration;
+        localStorage.setItem('timer_end_time', timerEndTime);
+      }
+
+      function updateTimer() {
+        const currentNow = Math.floor(Date.now() / 1000);
+        let secondsLeft = parseInt(timerEndTime) - currentNow;
+
+        // Reset timer if expired to keep urgency visual active
+        if (secondsLeft <= 0) {
+          const newEndTime = currentNow + timerDuration;
+          localStorage.setItem('timer_end_time', newEndTime);
+          timerEndTime = newEndTime;
+          secondsLeft = timerDuration;
+        }
+
+        const minutes = Math.floor(secondsLeft / 60);
+        const seconds = secondsLeft % 60;
+
+        const minutesStr = minutes < 10 ? '0' + minutes : minutes;
+        const secondsStr = seconds < 10 ? '0' + seconds : seconds;
+
+        document.getElementById('countdownTimer').textContent = minutesStr + ':' + secondsStr;
+      }
+
+      updateTimer();
+      setInterval(updateTimer, 1000);
+    });
+  </script>
+
+</body>
+</html>
