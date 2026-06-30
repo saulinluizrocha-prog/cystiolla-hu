@@ -285,11 +285,12 @@ $('.reviews-content-box__cbtn').on('click', function () {
 
  $(document).ready(function(){
     $('a').click( function(){ 
-  var scroll_el = $(this).attr('href'); 
+      var scroll_el = $(this).attr('href'); 
+      if (scroll_el && scroll_el.indexOf('#') === 0) {
         if ($(scroll_el).length != 0) { 
-      $('html, body').animate({ scrollTop: $(scroll_el).offset().top + 50 }, 1000); 
+          $('html, body').animate({ scrollTop: $(scroll_el).offset().top + 50 }, 1000); 
         }
-      return false; 
+        return false; 
+      }
     });
-
-}); 
+ }); 
