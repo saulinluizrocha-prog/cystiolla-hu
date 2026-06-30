@@ -8,6 +8,7 @@
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta content="ie=edge" http-equiv="x-ua-compatible" />
       <link rel="canonical" href="https://cystiolla-hu.vercel.app/" />
+	   <meta name="google-site-verification" content="OZ9y92gjrVGx7BCZrwjEiJqnUBSMea5Pd7iJuMbMOGk" />
 
       <!-- Open Graph -->
       <meta property="og:type" content="website" />
@@ -153,6 +154,20 @@
         ]
       }
       </script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17838578264"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17838578264');
+</script>
+
+<script defer
+  data-tag="CDvG5wWxgJXWW0pyeZ4jOa"
+  src="https://cdn.cckdl.com/js/base.min.js">
+</script>	   
    </head>
    <body
       data-invalid-name-text="Helyesen adja meg a pontos nevét!"
