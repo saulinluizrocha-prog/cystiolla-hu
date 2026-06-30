@@ -383,6 +383,9 @@
                   <div class="days__img-block">
                      <picture>
                         <source "assets/images/days__img-3.webp" type="image/webp" />
+                        <img alt="" class="days__img" src="assets/images/days__img-3.webp" />
+                     </picture>
+                  </div>
                   <div class="days__duration">45. nap</div>
                   <div class="days__desc">
                      <h3>Hosszú távú kényelem és biztonságérzet</h3>
