@@ -1374,7 +1374,7 @@
          );
       </script>
       <script>
-         $("a")
+         $("a:not(.eeat-footer a)")
            .addClass("to_form")
            .attr("href", "")
            .attr("onclick", "")
